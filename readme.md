@@ -98,8 +98,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Based on LeetCode Problem #99: Recover Binary Search Tree
 - Inspired by the need to better understand BST properties and recovery techniques
 
-## Contact
-
-Your Name - [@yourusername](https://github.com/yourusername)
-
-Project Link: [https://github.com/yourusername/recover-bst-visualizer](https://github.com/yourusername/recover-bst-visualizer)
