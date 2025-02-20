@@ -1,0 +1,66 @@
+#bstCanvas {
+    background-color: var(--bs-dark);
+    border-radius: 8px;
+    min-height: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+#bstCanvas:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    background-color: var(--bs-dark-bg-subtle);
+    border: 1px solid var(--bs-border-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary, .btn-secondary {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+    justify-content: center;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 4px;
+    background-color: var(--bs-dark);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.array-element.current {
+    background-color: var(--bs-success);
+    color: white;
+}
+
+.array-element.violation {
+    background-color: var(--bs-danger);
+    color: white;
+}
+
+.array-element.middle-candidate {
+    background-color: var(--bs-info);
+    color: white;
+}
+
+.array-pointer {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--bs-warning);
+}
+
+.array-container {
+    min-height: 80px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.node {
+    transition: transform 0.3s ease-in-out;
+}
