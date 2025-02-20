@@ -66,6 +66,9 @@ http://localhost:5000
 - Option to input custom BST configurations
 - Support for both Morris Traversal (O(1) space) and Recursive (O(n) space) approaches
 
+- ![image](https://github.com/user-attachments/assets/aab77694-53f1-4e78-9d3f-8ea9040bc355)
+
+
 ## How It Works
 
 1. The visualizer shows a BST with two incorrectly swapped nodes
@@ -88,6 +91,9 @@ The solution visualizes two main approaches:
 3. Commit your changes (`git commit -m 'Add visualization enhancement'`)
 4. Push to the branch (`git push origin feature/visualization-enhancement`)
 5. Open a Pull Request
+
+![image](https://github.com/user-attachments/assets/98af28e6-9c11-4db2-9334-ff7cca5922bc)
+
 
 ## License
 
